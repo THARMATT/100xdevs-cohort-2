@@ -7,7 +7,7 @@ function RevenueCard({ title,  orderCount, amount,  }) {
       <div> 
       {title}
       </div>
-        <div className="flex justify-center flex-col h-full ">
+        <div className="flex justify-between flex-col h-full ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -30,7 +30,7 @@ function RevenueCard({ title,  orderCount, amount,  }) {
         {orderCount ? 
           <div className="flex cursor-pointer underline font-medium">
             <div className="text-blue-700">
-              {orderCount}order(s)
+              {orderCount} order(s)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

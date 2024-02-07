@@ -1,0 +1,17 @@
+{
+  "name": "10.1",
+  "version": "1.0.0",
+  "description": "Types of Databases, SQL vs NoSQL, Creating Database, Connecting, Tables to Schema, Interacting with Database, Queries in Node.js, Simple Node.js App with SQL Database, Transactions, and Joins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pg": "^8.11.0",
+    "bg": "^1.0.0",
+    "pg": "^8.11.3"
+  }
+}
